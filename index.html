@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="icon" href="logo.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matisse zijn Subdomeinen</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        #subdomains {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 50px 20px;
+            margin-top: 30px;
+        }
+
+        #subdomains h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project-card {
+            max-width: 350px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            color: white;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .btn {
+            background: #ffcc00;
+            border-radius: 5px;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #e6b800;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px 10px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matisse zijn Subdomeinen</h1>
+    </header>
+
+    <section id="subdomains">
+        <h2>Mijn Subdomeinen</h2>
+        <p>Bekijk al mijn projecten en subdomeinen:</p>
+        <div class="projects">
+            <div class="project-card">
+                <h3>To-Do lijst</h3>
+                <p>Bekijk mijn To-Do lijst:</p>
+                <a href="https://to-do.mbits.be" target="_blank" class="btn">Bekijk To-Do</a>
+            </div>
+            <div class="project-card">
+                <h3>Pi-hole</h3>
+                <p>Bekijk mijn Pi-hole:</p>
+                <a href="https://pihole.mbits.be" target="_blank" class="btn">Bekijk Pi-hole</a>
+            </div>
+            <div class="project-card">
+                <h3>Vaultwarden</h3>
+                <p>Bekijk mijn Vaultwarden:</p>
+                <a href="https://vault.mbits.be" target="_blank" class="btn">Bekijk Vaultwarden</a>
+            </div>
+            <div class="project-card">
+                <h3>Andere Projecten</h3>
+                <p>Bekijk mijn andere subdomeinen:</p>
+                <a href="https://projects.mbits.be" target="_blank" class="btn">Bekijk Projecten</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Matisse Bollen. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
